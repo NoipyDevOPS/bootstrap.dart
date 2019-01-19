@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/installation/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/usage/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/about/changelog/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/about/license/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://dev.belin.io/bootstrap.dart/about/see_also/</loc>
+     <lastmod>2019-01-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
