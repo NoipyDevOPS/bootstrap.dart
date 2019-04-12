@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
   <meta name="description" content="bootstrap_bundle library API docs, for the Dart programming language.">
   <title>bootstrap_bundle library - Dart API</title>
   <!-- required because all the links are pseudo-absolute -->
   <base href="..">
 
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="static-assets/github.css">
   <link rel="stylesheet" href="static-assets/styles.css">
   <link rel="icon" href="static-assets/favicon.png">
-
+  
 </head>
 
 <body>
@@ -34,7 +35,18 @@
 
 <main>
 
-  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">bootstrap_bundle</a></li>
+      <li class="self-crumb">bootstrap_bundle library</li>
+    </ol>
+    
     <h5><span class="package-name">bootstrap_bundle</span> <span class="package-kind">package</span></h5>
     <ol>
           <li class="section-title">Libraries</li>
@@ -42,8 +54,8 @@
     </ol>
   </div>
 
-  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
-    <h1>bootstrap_bundle library </h1>
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1>bootstrap_bundle library </h1></div>
 
     <section class="desc markdown">
       <p>Bundle providing <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://jquery.com">jQuery</a> in one package.</p>
@@ -58,10 +70,10 @@
         <dt id="bootstrapVersion" class="constant">
           <span class="name "><a href="bootstrap_bundle/bootstrapVersion-constant.html">bootstrapVersion</a></span>
           <span class="signature">&#8594; const String</span>
-          </dt>
+                  </dt>
         <dd>
           The version number of the <a href="https://getbootstrap.com">Bootstrap</a> library.
-          
+                  
   <div>
             <span class="signature"><code>&#39;4.3.1&#39;</code></span>
           </div>
@@ -69,12 +81,12 @@
         <dt id="jQueryVersion" class="constant">
           <span class="name "><a href="bootstrap_bundle/jQueryVersion-constant.html">jQueryVersion</a></span>
           <span class="signature">&#8594; const String</span>
-          </dt>
+                  </dt>
         <dd>
           The version number of the <a href="https://jquery.com">jQuery</a> library.
-          
+                  
   <div>
-            <span class="signature"><code>&#39;3.3.1&#39;</code></span>
+            <span class="signature"><code>&#39;3.4.0&#39;</code></span>
           </div>
         </dd>
       </dl>
@@ -87,7 +99,7 @@
 
   </div> <!-- /.main-content -->
 
-  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
     <h5>bootstrap_bundle library</h5>
     <ol>
     
@@ -107,9 +119,10 @@
 
 <footer>
   <span class="no-break">
-    bootstrap_bundle 0.2.1
+    bootstrap_bundle 1.0.0
   </span>
 
+  
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
